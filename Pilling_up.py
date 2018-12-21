@@ -11,10 +11,9 @@ for _ in range(int(input())):
             current_dim = d.pop()
         if current_dim > last_dim:
             f = 1
+            print("No")
             break
         last_dim = current_dim
-    if f == 1:
-        print("No")
-    else:
+    if f == 0:
         print("Yes")
 
