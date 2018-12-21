@@ -1,15 +1,10 @@
 def minion_game(string):
-    word = string
-    cons = 0
-    vow = 0
-
+    word, cons, vow = string, 0, 0
     for i in range(len(word)):
         if word[i] in ('A','E','I','O','U'):
-            vow += (len(word)-i)
-            
+            vow += (len(word)-i)        
         else:
             cons += (len(word)-i)
-
     if cons > vow:
         print("Stuart"+" " + str(cons))
     elif cons < vow:
