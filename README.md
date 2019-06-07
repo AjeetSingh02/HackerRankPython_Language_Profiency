@@ -1,1 +1,1 @@
-This repository contains solutions of some Python questions which I solved on HackerRank.com
+This repository contains solutions of some Python questions which I solved on https://www.hackerrank.com/
